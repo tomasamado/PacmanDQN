@@ -1,0 +1,19 @@
+# Configuration file for Pac-Man project
+
+# Paths to Altirra and Pac-Man ROM
+altirra_path: "path\to\emulator"
+rom_path: "path\to\rom" 
+
+# Hyperparameters and other configs
+buffer_size: 10000
+batch_size: 32
+target_update_freq: 10
+learning_rate: 0.0001
+gamma: 0.95
+epsilon_start: 1.0
+epsilon_end: 0.01
+epsilon_decay: 0.01
+run_id: 99
+input_shape: [4, 84, 84]
+num_actions : 5  
+num_episodes : 100
