@@ -18,7 +18,7 @@ This same pipeline can technically be applied to future projects for games that 
 
 I use primarily the score displayed on the top left section of the screen as a reward. Specifically the diference between the score displayed on the previous frame and on the current one.
 
-In order to capture the score I crop a window that contains the text and use pytesseract's [pytesseract's](https://pypi.org/project/pytesseract/) OCR to read it after some preprocessing to make the text clearer:
+In order to capture the score I crop a window that contains the text and use [pytesseract's](https://pypi.org/project/pytesseract/) OCR to read it after some preprocessing to make the text clearer:
 
 ![Score section on the top left corner](https://github.com/tomasamado/PacmanDQN/blob/main/images/score_capture.png)
 
